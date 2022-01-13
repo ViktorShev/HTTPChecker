@@ -80,6 +80,7 @@ def save_file(file=None, results_list=[]):
 
 # TODO ADD MULTITHREAD SUPPORT (-t, --threads)
 
+
 domains_list = get_list_from_domains_file()
 file = parse_args().__dict__['output']
 add_schema_to_domains(domains_list)
