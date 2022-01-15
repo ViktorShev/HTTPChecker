@@ -22,7 +22,7 @@ Usage example:     httpcheck -f D:/domains.txt -o results.txt --add-schema https
 
         file.write(message+'\n')
 
-# Initializing terminal parser, adding commands and defining program's functions
+# Initializing terminal parser, adding commands and defining the program's functions
 def parse_args():
     parser = CustomArgumentParser(prog='HTTPChecker 2.0', description='Check for working/listening web-servers')
 
